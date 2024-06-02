@@ -1,7 +1,7 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -10,19 +10,18 @@ body {
 }
 
 .main-container {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
   height: 95vh;
+  justify-content: center;
 }
 
 .section-container {
-  /* border: 1px solid red; */
-  border-radius: 20px;
   background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
   height: 420px;
-  width: 270px;
   padding: 16px;
+  width: 270px;
 }
 
 .qr-code-image {
@@ -58,7 +57,7 @@ footer {
 
 .attribution a {
   color: hsl(218, 44%, 22%);
-  font-weight: bold;
   text-decoration: none;
   font-style: italic;
+  font-weight: bold;
 }
