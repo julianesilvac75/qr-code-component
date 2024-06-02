@@ -3,3 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.section-container {
+  border: 1px solid red;
+  height: 450px;
+  width: 300px;
+}
+
+.qr-code-image {
+  max-width: 100%;
+}
